@@ -2,7 +2,7 @@
 
 **Role:** Data Analyst + Project Lead
 **Tools:** BigQuery · Tableau Public · SQL · Google Sheets (QA)
-**Dataset:** UCI Online Retail II (~1M transactions, 2010)
+**Dataset:** UCI Online Retail II (~542K transactions, 2011)
 
 ---
 
@@ -10,14 +10,14 @@
 Meridian Home Goods had no visibility into customer repeat-purchase behavior. Retention spend was undifferentiated. This analysis identifies which segments drive repeat revenue, quantifies revenue at risk from lapsing customers, and benchmarks cohort retention.
 
 ## Key Findings
-_Fill in after Week 3 analysis_
-- % of revenue from repeat buyers: **TBD**
-- Top segment by revenue: **TBD**
-- At-risk revenue (At-Risk + Cannot Lose segments): **$TBD**
-- Month-1 cohort retention rate: **TBD%** vs. ~20–30% e-commerce benchmark
+- Repeat buyers generate **93.1% of revenue** despite being only 64% of customers
+- **Champions segment** (25% of customers) accounts for **66.8% of revenue** (£5.35M)
+- **£1.03M at risk** from At-Risk + Cannot Lose segments (883 lapsing customers, 136–173 days inactive)
+- **Month-1 cohort retention: 21%** — at the floor of the 20–30% e-commerce benchmark
+- Revenue follows a **60/10 rule**: top 10% of customers = 60% of all revenue
 
 ## Recommendation
-_Fill in after analysis_
+Target At-Risk customers (658 customers, £817K revenue, 136 days inactive) with a personalised win-back campaign. A 30% recovery rate returns ~£245K. Protect Champions with a VIP programme — losing one top-decile customer equals losing 120 bottom-decile customers.
 
 ## Dashboard
 [View on Tableau Public](_link_here_)
